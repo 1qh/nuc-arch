@@ -15,6 +15,7 @@ fuzzel
 fzf
 github-cli
 gvim
+lsd
 lxsession-gtk3
 mako
 man-db
