@@ -1,0 +1,5 @@
+# wlr-randr --output DP-2 --output eDP-1 --pos 2880,2160 &
+wlr-randr --output HDMI-A-1 --output eDP-1 --pos 5760,540 &
+# swaybg -i b.jpg -m fill &
+wlsunset -T 4001 &
+mako -c ~/nuc-arch/misc/mako.txt &

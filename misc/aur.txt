@@ -1,0 +1,13 @@
+brave-bin
+downgrade
+grimshot
+jump-bin
+labwc-git
+lf-bin
+micromamba-bin
+pacseek-bin
+vim-plug
+visual-studio-code-bin
+wlroots-git
+wlr-randr
+wlsunset

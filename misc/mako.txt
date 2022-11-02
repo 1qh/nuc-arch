@@ -1,0 +1,3 @@
+layer=overlay
+background-color=#000000
+font=JetBrains Mono 20

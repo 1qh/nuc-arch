@@ -1,0 +1,13 @@
+window:
+  dimensions:
+    columns: 99
+    lines: 24
+  opacity: 0.5
+  decorations: None
+font:
+  normal:
+    family: JetBrains Mono
+  size: 24
+colors:
+  primary:
+    background: '#000000'
