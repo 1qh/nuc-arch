@@ -25,7 +25,7 @@ abbr p bpython
 abbr m micromamba
 abbr st streamlit
 abbr rmr 'rm -rf'
-abbr fishcf 'vim --remote-tab-silent ~/arch-setup/config.fish'
+abbr fishcf 'vim --remote-tab-silent ~/nuc-arch/config.fish'
 abbr gs 'git status'
 abbr gitquick 'git add . && git commit -am "." && git push origin master'
 abbr atrm 'sudo pacman -Rns (pacman -Qdttq)'
@@ -114,5 +114,5 @@ function listenyt -a url
 end
 
 function mamall
-    echo micromamba install (micromamba env export --from-history | grep -A 100 'es:' | awk '{print $2}' | grep . | sort) -c conda-forge
+    echo micromamba install (micromamba env export --from-history -n base | grep -A 100 'es:' | awk '{print $2}' | grep . | sort) -c conda-forge -n base
 end
