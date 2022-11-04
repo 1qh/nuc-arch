@@ -1,0 +1,7 @@
+[Service]
+WorkingDirectory=/
+ExecStart=bash -c "evremap remap /home/o/nuc-arch/evremap/logitech.toml"
+Restart=always
+
+[Install]
+WantedBy=NetworkManager.service
