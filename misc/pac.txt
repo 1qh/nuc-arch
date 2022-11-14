@@ -25,6 +25,7 @@ motion
 mupdf
 ncdu
 nfs-utils
+npm
 openssh
 p7zip
 swaybg

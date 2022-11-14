@@ -102,7 +102,7 @@ function cl
 end
 
 function black_bg
-    dconf write "/org/gnome/desktop/background/picture-uri" "'file:///home/o/arch-setup/misc/b.png'"
+    dconf write "/org/gnome/desktop/background/picture-uri" "'file:///home/o/nuc-arch/misc/b.png'"
 end
 
 function sfpro
