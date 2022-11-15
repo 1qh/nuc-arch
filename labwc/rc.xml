@@ -5,7 +5,7 @@
     <cycleViewPreview>yes</cycleViewPreview>
     <adaptiveSync>yes</adaptiveSync>
   </core>
-  
+
   <desktops>
     <popupTime>1000</popupTime>
     <names>
@@ -76,10 +76,10 @@
     </keybind>
     <keybind key="W-F1">
       <action name="Execute"><command>brave</command></action>
-    </keybind> 
+    </keybind>
     <keybind key="W-F2">
       <action name="Execute"><command>brave --incognito</command></action>
-    </keybind> 
+    </keybind>
     <keybind key="W-F3">
       <action name="Execute"><command>wlsunset -T 4001</command></action>
     </keybind>
@@ -91,19 +91,19 @@
     </keybind>
     <keybind key="C-S-Escape">
       <action name="Execute"><command>alacritty -e top</command></action>
-    </keybind> 
+    </keybind>
     <keybind key="W-e">
       <action name="Execute"><command>alacritty -e lf</command></action>
-    </keybind> 
+    </keybind>
     <keybind key="W-S-e">
       <action name="Execute"><command>alacritty -e ncdu</command></action>
-    </keybind> 
+    </keybind>
     <keybind key="W-S-i">
       <action name="Execute"><command>alacritty -e alsamixer</command></action>
-    </keybind> 
+    </keybind>
     <keybind key="W-m">
       <action name="Execute"><command>alacritty -e mocp -T /usr/share/moc/themes/transparent-background</command></action>
-    </keybind> 
+    </keybind>
     <keybind key="W-i">
       <action name="Execute"><command>alacritty -e nmtui-connect</command></action>
     </keybind>
@@ -141,5 +141,24 @@
       <action name="Execute"><command>brightnessctl set 10%-</command></action>
     </keybind>
   </keyboard>
+
+  <mouse>
+    <context name="Frame">
+      <mousebind button="W-Left" action="Press">
+        <action name="Focus"/>
+        <action name="Raise"/>
+      </mousebind>
+      <mousebind button="W-Left" action="Drag">
+        <action name="Move"/>
+      </mousebind>
+      <mousebind button="W-Right" action="Press">
+        <action name="Focus"/>
+        <action name="Raise"/>
+      </mousebind>
+      <mousebind button="W-Right" action="Drag">
+        <action name="Resize"/>
+      </mousebind>
+    </context>
+  </mouse>
 
 </labwc_config>
