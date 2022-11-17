@@ -23,6 +23,7 @@ abbr dcu docker-compose up -d
 abbr dcd docker-compose down
 abbr p bpython
 abbr m micromamba
+abbr mbin 'micromamba install -c conda-forge -n base'
 abbr st streamlit
 abbr rmr 'rm -rf'
 abbr fishcf 'vim --remote-tab-silent ~/nuc-arch/config.fish'
