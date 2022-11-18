@@ -4,6 +4,7 @@ grimshot
 jump-bin
 labwc-git
 lf-bin
+linux-wifi-hotspot
 micromamba-bin
 pacseek-bin
 vim-plug
