@@ -3,6 +3,7 @@ alacritty
 alsa-utils
 bluez-utils
 brightnessctl
+byobu
 cmake
 cmatrix
 cronie
