@@ -1,6 +1,5 @@
 acpi
 alacritty
-alsa-utils
 bluez-utils
 brightnessctl
 byobu
@@ -30,6 +29,7 @@ nfs-utils
 npm
 openssh
 p7zip
+pulsemixer
 swaybg
 ttf-jetbrains-mono
 wf-recorder
