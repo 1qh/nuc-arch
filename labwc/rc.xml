@@ -99,7 +99,7 @@
       <action name="Execute"><command>alacritty -e ncdu</command></action>
     </keybind>
     <keybind key="W-S-i">
-      <action name="Execute"><command>alacritty -e alsamixer</command></action>
+      <action name="Execute"><command>alacritty -e pulsemixer</command></action>
     </keybind>
     <keybind key="W-m">
       <action name="Execute"><command>alacritty -e mocp -T /usr/share/moc/themes/transparent-background</command></action>
