@@ -69,7 +69,6 @@ function fish_greeting
   set_color yellow
   intro
   greeting
-  micromamba activate
 end
 
 function cdls --on-variable PWD
@@ -111,7 +110,7 @@ function sfpro
 end
 
 function listenyt -a url
-    youtube-dl -f bestaudio $url -o - 2>/dev/null | ffplay -nodisp -autoexit -i - &>/dev/null 
+    youtube-dl -f bestaudio $url -o - 2>/dev/null | ffplay -nodisp -autoexit -i - &>/dev/null
 end
 
 function mamall
