@@ -16,6 +16,7 @@ fuzzel
 fzf
 github-cli
 gvim
+kitty
 lsd
 lxsession-gtk3
 mako

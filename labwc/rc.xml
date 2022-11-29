@@ -93,7 +93,7 @@
       <action name="Execute"><command>alacritty -e top</command></action>
     </keybind>
     <keybind key="W-e">
-      <action name="Execute"><command>alacritty -e lf</command></action>
+      <action name="Execute"><command>kitty -e lf</command></action>
     </keybind>
     <keybind key="W-S-e">
       <action name="Execute"><command>alacritty -e ncdu</command></action>

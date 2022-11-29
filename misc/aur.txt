@@ -1,4 +1,5 @@
 brave-bin
+ctpv-git
 downgrade
 grimshot
 jump-bin
