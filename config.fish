@@ -117,10 +117,6 @@ function mamall
     echo micromamba install (micromamba env export --from-history -n base | grep -A 100 'es:' | awk '{print $2}' | grep . | sort) -c conda-forge -n base
 end
 
-function nasmount
-    sudo mount -t nfs 192.168.2.50:/volume1/01_TempData ~/asilla
-end
-
-function nasunmount
-    sudo umount ~/asilla
-end
+abbr nasmount "sudo mount -t nfs 192.168.2.50:/volume1/01_TempData ~/asilla"
+abbr nasmount2 "sudo mount -t nfs 192.168.2.50:/volume2/02_SafeData ~/asilla"
+abbr nasumount "sudo umount ~/asilla"
