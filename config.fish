@@ -33,6 +33,10 @@ abbr atrm 'sudo pacman -Rns (pacman -Qdttq)'
 abbr pacin 'sudo pacman -S --needed'
 abbr pacrm 'sudo pacman -Rns'
 abbr myip 'curl ip.me'
+abbr cvat 'docker-compose -f ~/cvat/docker-compose.yml -f ~/cvat/components/serverless/docker-compose.serverless.yml up -d'
+abbr nasmount "sudo mount -t nfs 192.168.2.50:/volume1/01_TempData ~/asilla"
+abbr nasmount2 "sudo mount -t nfs 192.168.2.50:/volume2/02_SafeData ~/asilla"
+abbr nasumount "sudo umount ~/asilla"
 
 alias l="lsd -l $hide"
 alias ll="lsd -lA $hide $hidedot"
@@ -117,6 +121,3 @@ function mamall
     echo micromamba install (micromamba env export --from-history -n base | grep -A 100 'es:' | awk '{print $2}' | grep . | sort) -c conda-forge -n base
 end
 
-abbr nasmount "sudo mount -t nfs 192.168.2.50:/volume1/01_TempData ~/asilla"
-abbr nasmount2 "sudo mount -t nfs 192.168.2.50:/volume2/02_SafeData ~/asilla"
-abbr nasumount "sudo umount ~/asilla"
