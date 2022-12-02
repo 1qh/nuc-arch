@@ -3,6 +3,7 @@ set TTY1 (tty)
 
 jump shell fish | source
 
+set cf nuc-arch
 set d (date +%a' '%d/%m)
 set t (date +%R' '%P)
 set n (pacman -Qq | wc -l)
@@ -27,7 +28,7 @@ abbr mbin 'micromamba install -c conda-forge -n base'
 abbr nv nvidia-smi
 abbr st streamlit
 abbr rmr 'rm -rf'
-abbr fishcf 'vim --remote-tab-silent ~/nuc-arch/config.fish'
+abbr fishcf 'vim --remote-tab-silent ~/$cf/config.fish'
 abbr gs 'git status'
 abbr gitquick 'git add . && git commit -am "." && git push origin master'
 abbr atrm 'sudo pacman -Rns (pacman -Qdttq)'
@@ -103,7 +104,7 @@ function cl
 end
 
 function black_bg
-    dconf write "/org/gnome/desktop/background/picture-uri" "'file:///home/o/nuc-arch/misc/b.png'"
+    dconf write "/org/gnome/desktop/background/picture-uri" "'file:///home/o/$cf/misc/b.png'"
 end
 
 function sfpro
