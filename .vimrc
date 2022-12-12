@@ -31,6 +31,7 @@ colorscheme monokai
 highlight Normal ctermbg=None
 set number
 set relativenumber
+set linebreak
 
 if empty($WAYLAND_DISPLAY)
     finish
