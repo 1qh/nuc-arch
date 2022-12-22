@@ -22,6 +22,8 @@ abbr d docker
 abbr dc docker-compose
 abbr dcu docker-compose up -d
 abbr dcd docker-compose down
+abbr dsp 'docker system prune -a'
+abbr n pnpm
 abbr p python
 abbr m micromamba
 abbr mbin 'micromamba install -c conda-forge'
