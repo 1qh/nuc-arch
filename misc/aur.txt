@@ -1,9 +1,10 @@
 brave-bin
 ctpv-git
 downgrade
+evremap-git
 grimshot
 jump-bin
-labwc-git
+labwc
 lf-bin
 linux-wifi-hotspot
 micromamba-bin
